@@ -1,3 +1,5 @@
+#include<bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
 // int lsc(string &s,string&t,int i,int j,vector<vector<int>>&dp)
