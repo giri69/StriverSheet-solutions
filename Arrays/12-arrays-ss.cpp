@@ -4,7 +4,7 @@ class Solution{
     public:
     int lenOfLongSubarr(int a[],  int n, int k) 
     { 
-    map<int, int> preSumMap;
+      map<int, int> preSumMap;
     int sum = 0;
     int maxLen = 0;
     for (int i = 0; i < n; i++) {

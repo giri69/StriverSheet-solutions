@@ -4,12 +4,17 @@ class ListNode{
     public:
     int val;
     ListNode*next;
+
+    ListNode(int data)
+    {
+        val=data;
+        next=NULL;
+    }
 };
 
 class Solution {
 public:
     ListNode* sortList(ListNode* head) {
-        //If List Contain a Single or 0 Node
         if(head == NULL || head ->next == NULL)
             return head;
 
